@@ -1,0 +1,26 @@
+.test_Card {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 5em;
+  border-top: 8px solid #4392fa;
+  text-align: center;
+}
+.amount-width {
+  width: 80%;
+}
+.text-left {
+  text-align: left;
+}
+
+.convertButton {
+  width: 80%;
+}
+
+@media (max-width: 667px) {
+  .test_Card {
+    width: 80%;
+  }
+  .convertButton {
+    width: 80%;
+  }
+}
